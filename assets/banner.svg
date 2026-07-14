@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="TrueScent  KeyCollider laboratory">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07090b"/>
+      <stop offset="55%" stop-color="#0c1014"/>
+      <stop offset="100%" stop-color="#0a0e0c"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8a6a3a"/>
+      <stop offset="45%" stop-color="#e0c184"/>
+      <stop offset="100%" stop-color="#9a7340"/>
+    </linearGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fb9a8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8fb9a8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="transparent"/>
+      <circle cx="1" cy="2" r="0.4" fill="#ffffff" opacity="0.045"/>
+      <circle cx="3" cy="0.5" r="0.3" fill="#ffffff" opacity="0.03"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect x="0" y="0" width="1280" height="360" rx="2"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="360" fill="url(#bg)"/>
+    <rect width="1280" height="360" fill="url(#grain)"/>
+
+    <!-- spectrum / search-range lattice -->
+    <g stroke="#1a242c" stroke-width="1" opacity="0.9">
+      <line x1="40" y1="48" x2="1240" y2="48"/>
+      <line x1="40" y1="312" x2="1240" y2="312"/>
+      <line x1="40" y1="48" x2="40" y2="312"/>
+      <line x1="1240" y1="48" x2="1240" y2="312"/>
+    </g>
+
+    <!-- asymmetric range bars -->
+    <g fill="none" stroke="#243038" stroke-width="1">
+      <path d="M72 268 H420"/>
+      <path d="M72 282 H610"/>
+      <path d="M72 296 H340"/>
+    </g>
+    <g fill="none" stroke="#c9a66b" stroke-width="1.6" opacity="0.85">
+      <path d="M72 268 H238"/>
+      <path d="M72 282 H412"/>
+      <path d="M72 296 H168"/>
+    </g>
+    <g fill="#c9a66b">
+      <circle cx="238" cy="268" r="2.2"/>
+      <circle cx="412" cy="282" r="2.2"/>
+      <circle cx="168" cy="296" r="2.2"/>
+    </g>
+
+    <!-- collision ellipse (right weight) -->
+    <ellipse cx="980" cy="180" rx="210" ry="92" fill="none" stroke="#24383a" stroke-width="1.2"/>
+    <ellipse cx="980" cy="180" rx="148" ry="58" fill="none" stroke="#c9a66b" stroke-width="1" opacity="0.55"/>
+    <ellipse cx="980" cy="180" rx="72" ry="28" fill="url(#fog)"/>
+    <line x1="830" y1="180" x2="1130" y2="180" stroke="#c9a66b" stroke-width="0.8" opacity="0.5"/>
+    <line x1="980" y1="100" x2="980" y2="260" stroke="#8fb9a8" stroke-width="0.7" opacity="0.35"/>
+
+    <!-- twin keys colliding -->
+    <g transform="translate(930,150)" fill="none" stroke="#e0c184" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="0" cy="18" r="11"/>
+      <path d="M11 18 H46 V14 H54 V22 H46 V18"/>
+      <path d="M34 18 V25 M40 18 V23"/>
+    </g>
+    <g transform="translate(1030,150) scale(-1,1)" fill="none" stroke="#8fb9a8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+      <circle cx="0" cy="18" r="11"/>
+      <path d="M11 18 H46 V14 H54 V22 H46 V18"/>
+      <path d="M34 18 V25 M40 18 V23"/>
+    </g>
+    <circle cx="980" cy="168" r="3.5" fill="#e07040"/>
+
+    <!-- station meta -->
+    <text x="72" y="78" fill="#6e7a72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="3">STATION // UK · OPERATOR // TRUESCENT</text>
+
+    <!-- wordmark -->
+    <text x="68" y="168" fill="url(#brass)" font-family="Georgia, 'Times New Roman', serif" font-size="86" font-weight="700" letter-spacing="6">TRUE</text>
+    <text x="68" y="238" fill="#e8e2d4" font-family="Georgia, 'Times New Roman', serif" font-size="86" font-weight="700" letter-spacing="6">SCENT</text>
+
+    <!-- flagship chip -->
+    <rect x="420" y="198" width="188" height="28" rx="2" fill="#12181c" stroke="#c9a66b" stroke-width="1"/>
+    <text x="514" y="217" text-anchor="middle" fill="#e0c184" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2.5">KEYCOLLIDER</text>
+
+    <!-- hex crumbs -->
+    <text x="980" y="294" text-anchor="middle" fill="#44524c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5">secp256k1 · ed25519 · range ’ hit</text>
+  </g>
+</svg>

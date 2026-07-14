@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="72" viewBox="0 0 1080 72" role="img" aria-label="Supported coin families">
+  <rect width="1080" height="72" rx="3" fill="#0a0e11" stroke="#243038" stroke-width="1"/>
+  <text x="28" y="42" fill="#6e7a72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2">LEDGER</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#ddd8c8" letter-spacing="2">
+    <text x="140" y="42">BTC</text>
+    <text x="230" y="42">ETH</text>
+    <text x="320" y="42">SOL</text>
+    <text x="410" y="42">LTC</text>
+    <text x="500" y="42">DOGE</text>
+    <text x="600" y="42">XRP</text>
+    <text x="690" y="42">BCH</text>
+    <text x="780" y="42">ETC</text>
+    <text x="870" y="42" fill="#8fb9a8">+ TAPROOT</text>
+  </g>
+</svg>

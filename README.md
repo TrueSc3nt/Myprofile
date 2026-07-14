@@ -1,17 +1,98 @@
-# Myprofile
-Config file for my github
-# 💫 About Me:
-Python Developer in Crypto Software<br>Created the 1st Zephr A.i miner <br>A.i Developer for mining<br>
+<!--
+  TrueScent / @TrueSc3nt
+  Laboratory card — not a portfolio template.
+-->
 
+<p align="center">
+  <img src="./assets/banner.svg" alt="TrueScent — KeyCollider laboratory" width="100%" />
+</p>
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=TrueSc3nt&theme=codeSTACKr&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=TrueSc3nt&theme=codeSTACKr&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=TrueSc3nt&theme=codeSTACKr&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="70%" />
+</p>
 
----
-[![](https://visitcount.itsvg.in/api?id=TrueSc3nt&icon=0&color=0)](https://visitcount.itsvg.in)
+<pre align="center">
+┌─────────────────────────────────────────────────────────────┐
+│  @TrueSc3nt  ·  TrueScent  ·  UK                            │
+│  Research · design · build — think outside the box          │
+└─────────────────────────────────────────────────────────────┘
+</pre>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<p align="center">
+  <em>I forge tools that walk the ranges you open —<br/>
+  not oracles, not get-rich scripts, not miracles.</em>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="./assets/flagship.svg" alt="KeyCollider / TrueCollider flagship" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/TrueSc3nt/TrueCollider"><strong>Enter the forge → TrueSc3nt/TrueCollider</strong></a>
+</p>
+
+<details>
+<summary><strong>What it actually is</strong></summary>
+<br/>
+
+**KeyCollider** (also **TrueCollider**) is an open-source multi-coin key-search toolkit:
+Bitcoin-family addresses, Ethereum, Solana, vanity prefixes, brainwallets, BSGS, and Pollard's kangaroo —
+on CPU SIMD with optional NVIDIA CUDA.
+
+It searches ranges and patterns **you** supply. It is not a wallet scraper and not a “find free BTC” machine.
+Built for puzzles, vanity, multi-coin lists, BIP-39 experiments, and discrete-log research on secp256k1 / ed25519.
+
+</details>
+
+<br/>
+
+<p align="center">
+  <img src="./assets/apparatus.svg" alt="Apparatus stack and modes" width="100%" />
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="./assets/ledger.svg" alt="Coin ledger" width="100%" />
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="./assets/doctrine.svg" alt="Doctrine" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="70%" />
+</p>
+
+### field notes
+
+| | |
+|:---|:---|
+| **operator** | TrueScent · `@TrueSc3nt` |
+| **signal** | Research design build |
+| **forge** | [TrueCollider / KeyCollider](https://github.com/TrueSc3nt/TrueCollider) |
+| **voice** | C/C++, CUDA, Python — crypto tooling, not content farms |
+| **posts** | Authorized ranges only. Education > carnival. |
+
+<br/>
+
+```text
+  $ keyhunt_cuda.exe -h
+  # CPU SIMD · optional NVIDIA CUDA · puzzles · research · education
+
+        ╔══════════════════════════════╗
+        ║   range open · filters hot   ║
+        ║   collision = scent of truth ║
+        ╚══════════════════════════════╝
+```
+
+<p align="center">
+  <sub>
+    handmade SVG · brass &amp; phosphor · zero badge walls · zero visitor counters<br/>
+    identity for <a href="https://github.com/TrueSc3nt">TrueSc3nt</a> · gallery repo: <a href="https://github.com/TrueSc3nt/Myprofile">Myprofile</a>
+  </sub>
+</p>
